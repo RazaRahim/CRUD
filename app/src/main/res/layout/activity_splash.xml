@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splash"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_marginTop="100dp">
+
+        <ImageView
+            android:id="@+id/pathView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Record"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/image2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="20dp">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:fontFamily="sans-serif-condensed-medium"-->
+<!--            android:gravity="center"-->
+<!--            android:text="@string/splashtext"-->
+<!--            android:textColor="@color/gray"-->
+<!--            android:textSize="35sp"-->
+<!--            android:textStyle="bold"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/splashtext2"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:textColor="@color/gray"/>-->
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/internetNotAvailable"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="vertical"-->
+<!--        android:visibility="gone">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/internetErrorIcon"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/ic_no_wifi" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/errorText"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:text="Internet Connection Not Available"-->
+<!--            android:textColor="@color/text_color"-->
+<!--            android:textSize="18sp" />-->
+
+
+<!--        &lt;!&ndash;        <Button&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:id="@+id/tryAgain"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_width="200dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_height="50dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_gravity="center"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_marginTop="20dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:background="@drawable/shapebtn"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:inputType="text"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:text="Try Again"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:textColor="@color/white" />&ndash;&gt;-->
+
+<!--    </LinearLayout>-->
+
+</RelativeLayout>
